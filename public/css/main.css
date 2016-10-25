@@ -105,6 +105,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h1 {
+    text-align: center;
+}
+
 #header {
     background: #FFF;
     height: 50px;
@@ -200,6 +204,22 @@ textarea {
     color: #1B5C7F;
 }
 
+a {
+    color: #298ABF;
+}
+
+a:hover {
+    color: #1B5C7F;
+}
+
+.profile_pic {
+    height: 400px;
+}
+
+.about_me_container {
+    display: flex;
+    margin: 50px 200px;
+}
 
 /* ==========================================================================
    Helper classes
