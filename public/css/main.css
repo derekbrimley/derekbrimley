@@ -113,15 +113,17 @@ h1 {
     background: #FFF;
     height: 50px;
     font-size: 25pt;
-    margin-left: 100px;
+    padding-left: 100px;
+    width: 100%;
     cursor: default;
     color: #403C3F;
+    position: fixed;
 }
 
 #main_container {
     /*background: #CCB7B5;*/
     background-image: url('/img/concrete_seamless.png');
-    padding: 0 50px;
+    padding: 50px;
     font-size: 14pt;
 }
 
