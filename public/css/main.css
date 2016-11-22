@@ -220,7 +220,13 @@ a:hover {
 
 .about_me_container {
     display: flex;
+    flex-wrap: wrap;
     margin: 50px 200px;
+}
+
+.profile_desc {
+    width: 50%;
+    margin: 50px;
 }
 
 /* ==========================================================================
@@ -310,6 +316,38 @@ a:hover {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+@media only screen and (max-width: 1425px) {
+    .about_me_container {
+        margin: 50px 100px;
+    }
+    
+}
+
+@media only screen and (max-width: 1220px) {
+    .about_me_container {
+        margin: 50px 0;
+    }
+    
+    .profile_desc {
+        width: 100%;
+        margin: 20px;
+    }
+    
+    .profile_pic {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #main_content {
+        padding: 0;
+    }
+    
+    #main_container {
+        padding: 50px 0;
+    }
+}
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
